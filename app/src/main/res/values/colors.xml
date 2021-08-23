@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="fundoGradienteAzul">#4528d6</color>
     <color name="fundoGradienteRoxo">#750b93</color>
+    <color name="fundoLogin">#e7008a</color>
 </resources>

@@ -39,6 +39,7 @@
             android:layout_marginBottom="50dp"/>
 
         <EditText
+            android:id="@+id/edit_text_peso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Qual o seu peso?"
@@ -52,6 +53,7 @@
             android:textColor="@android:color/white"/>
 
         <EditText
+            android:id="@+id/edit_text_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Qual a sua altura?"
@@ -65,6 +67,7 @@
             android:textColor="@android:color/white"/>
 
         <Button
+            android:id="@+id/button_calcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Calcular"
@@ -74,14 +77,16 @@
             />
 
         <TextView
+            android:id="@+id/text_view_resultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="0.0"
-            android:textSize="80sp"
+            android:textSize="50sp"
             android:background="@drawable/forma_resultado_imc"/>
 
         <TextView
+            android:id="@+id/imc_resultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
